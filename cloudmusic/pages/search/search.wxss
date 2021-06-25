@@ -1,0 +1,155 @@
+.searchContainer{
+    padding: 0 3%;
+}
+
+/*头部搜索区域*/
+.header{
+    width: 100%;
+    display: flex;
+    padding: 10rpx 0;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+.searchInput{
+    flex: 1;
+    border-radius: 30rpx;
+    background: rgba(237,237,237,0.3);
+    display: flex;
+}
+
+.searchInput .icon-sousuo{
+    width: 25%;
+    text-align: right;
+    font-size: 35rpx;
+}
+
+.searchInput .icon-quxiao2{
+    margin-left: 5%;
+    font-size: 40rpx;
+    color: #d0d0d0;
+}
+
+.searchInput input{
+    height: 60rpx;
+    margin-left: 8%;
+}
+
+.placeholder{
+    color: skyblue;
+    font-size: 26rpx;
+}
+
+.cancel{
+    width: 100rpx;
+    text-align: center;
+}
+
+/*热搜榜列表显示区域*/
+.hotContainer .title{
+    font-size: 28rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    border-bottom: 1rpx solid #00FFFF;
+}
+
+.hotList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hotItem{
+    width: 50%;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+.hotItem .order{
+    margin: 0 12rpx;
+}
+/*热搜标签图样式*/
+.hotItem .iconImg{
+    width: 35rpx;
+    height: 20rpx;
+    margin: auto 10rpx;
+    /*margin-bottom: 10rpx;*/
+}
+
+/*搜索内容展示区域*/
+.searchContent{
+    color: skyblue;
+    height: 80rpx;
+    line-height: 80rpx;
+    border-bottom: 1rpx solid #00FFFF;
+}
+
+.searchItem{
+    height: 80rpx;
+    line-height: 80rpx;
+    display: flex;
+}
+.searchItem .iconfont{
+    font-size: 30rpx;
+    color: #7e7272;
+}
+
+.searchItem .content{
+    flex: 1;
+    margin-left: 22rpx;
+    font-size: 24rpx;
+    color: #6C6C6C;
+    /*border-bottom: 1rpx solid #eee;*/
+}
+
+/*搜索历史显示区域*/
+.history{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 50rpx;
+    margin: 10rpx auto;
+}
+
+.history .title{
+    height: 50rpx;
+}
+
+.history .historyItem{
+    height: 50rpx;
+    font-size: 22rpx;
+    background: #ededed;
+    margin-left: 20rpx;
+    padding:  0 30rpx;
+    color: #6C6C6C;
+    border-radius: 30rpx;
+    margin-bottom: 10rpx;
+}
+
+.history .delete{
+    color: black;
+    font-size: 45rpx;
+    margin-top: 8rpx;
+    margin-left: auto;
+    margin-right: 10rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

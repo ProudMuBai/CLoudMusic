@@ -1,0 +1,5 @@
+@import "static/iconfont/iconfont.wxss";
+view{
+    font-size: 26rpx;
+    
+}

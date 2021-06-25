@@ -1,0 +1,17 @@
+/*自定义组件样式*/
+.header{
+    padding-bottom: 20rpx;
+    margin-bottom: 10rpx;
+}
+.header .title{
+    font-size: 30rpx;
+    line-height: 80rpx;
+    color: #666;
+}
+.header .more{
+    float: right;
+    border: 1rpx solid #333;
+    padding: 10rpx 20rpx;
+    font-size: 24rpx;
+    border-radius: 30rpx;
+}

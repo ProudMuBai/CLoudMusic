@@ -1,0 +1,45 @@
+<view class="songDetailContainer">
+    <!-- 歌曲图片展示区域 -->
+    <view class="disContainer">
+        <image class="musicImage {{isPlay && 'discAnimation'}}" src="{{song.al.picUrl}}">  </image>
+    </view>
+
+    <!--歌曲信息内容-->
+    <view class="title">
+        <view class="header">
+            <view class="songName">{{song.name}}</view>
+            <view class="icon">
+                <text class="iconfont icon-xihuan-copy"></text>
+                <text class="dtCount">{{song.v+'w+'}}</text>
+            </view>
+        </view>
+        <view class="hutors" >
+            <text wx:if="{{index<3}}" wx:for="{{song.ar}}" wx:key="id">{{index>0?'/ '+item.name:item.name}}</text>
+        </view>
+    </view>
+
+    <!-- 歌词信息展示区域   catchtouchmove='catchTouchMove' -->
+    <scroll-view class="lyrics" scroll-y     scroll-into-view="{{'A'+currentLyric.index}}">
+        <view class="lyric" wx:for="{{lyric}}" wx:key="index" wx:if="{{item.text != ''}}" id="{{'A'+item.index}}" data-time="{{item.time}}" bindtap="handleChangeLyric">
+            <text wx:if="{{currentLyric.index === item.index}}" class="{{currentLyric.index === item.index?'current':''}}" style="animation-duration: {{time}}s" >{{item.text}}</text>
+            <text wx:else>{{item.text}}</text>
+        </view>
+    </scroll-view>
+
+    <!-- 播放进度条显示区域 -->
+    <view class="progressControl">
+        <text>{{currentTime}}</text>
+        <slider block-size="12" backgroundColor='#ADADAD' activeColor='#FFFFFF' class="barControl" value="{{sliderValue}}" bindchange="handleSeek"></slider>
+        <text>{{durationTime}}</text>
+    </view>
+
+    <!--底部播放控制区域-->
+    <view class="musicControl">
+        <text class="iconfont icon-suiji"></text>
+        <text class="iconfont icon-top median" id="pre" bindtap="handleSwitch" ></text>
+        <text class="iconfont {{isPlay?'icon-bofang6':'icon-bofang2'}} big" bindtap="handleMusicPlay"></text>
+        <text class="iconfont icon-bottom median" id="next" bindtap="handleSwitch"></text>
+        <text class="iconfont icon-gedan2 "></text>
+    </view>
+
+</view>

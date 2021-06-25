@@ -1,0 +1,7 @@
+1. 代码中找到服务器： NeteaseCloudMusicApi-4.0.16
+2. 在服务器根目录下执行: npm start || node app.js
+3. 服务器端地址: localhost: 3000
+4. 请求示例: http://localhost:3000/banner
+
+服务器接口文档地址:
+https://binaryify.github.io/NeteaseCloudMusicApi

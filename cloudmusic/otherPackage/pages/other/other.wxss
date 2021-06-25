@@ -1,0 +1,5 @@
+.otherTitle{
+    width: 100%;
+    margin: 80rpx auto;
+    text-align: center;
+}

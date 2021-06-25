@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2595205 */
+  src: url('//at.alicdn.com/t/font_2595205_813tcn8vns5.woff2?t=1624102584696') format('woff2'),
+  url('//at.alicdn.com/t/font_2595205_813tcn8vns5.woff?t=1624102584696') format('woff'),
+  url('//at.alicdn.com/t/font_2595205_813tcn8vns5.ttf?t=1624102584696') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quxiao:before {
+  content: "\e616";
+}
+
+.icon-quxiao1:before {
+  content: "\e627";
+}
+
+.icon-quxiao2:before {
+  content: "\e605";
+}
+
+.icon-shanchu:before {
+  content: "\e642";
+}
+
+.icon-shanchu1:before {
+  content: "\e606";
+}
+
+.icon-aixinshoucang:before {
+  content: "\e680";
+}
+
+.icon-xihuan-copy:before {
+  content: "\e60b";
+}
+
+.icon-gedan2:before {
+  content: "\e617";
+}
+
+.icon-suiji:before {
+  content: "\e634";
+}
+
+.icon-bofang6:before {
+  content: "\e61c";
+}
+
+.icon-bofang2:before {
+  content: "\e62b";
+}
+
+.icon-suijibofang:before {
+  content: "\e6d5";
+}
+
+.icon-SongListgedan:before {
+  content: "\e604";
+}
+
+.icon-top:before {
+  content: "\eca8";
+}
+
+.icon-bottom:before {
+  content: "\e603";
+}
+
+.icon-more2:before {
+  content: "\e601";
+}
+
+.icon-bofang1:before {
+  content: "\e635";
+}
+
+.icon-youxuliebiao:before {
+  content: "\e641";
+}
+
+.icon-dianzan:before {
+  content: "\e66e";
+}
+
+.icon-pinglun:before {
+  content: "\e629";
+}
+
+.icon-49wangluoanquan20_fenxiang:before {
+  content: "\e61a";
+}
+
+.icon-yinle:before {
+  content: "\eca7";
+}
+
+.icon-shipin-copy:before {
+  content: "\e7ff";
+}
+
+.icon-sousuo:before {
+  content: "\e669";
+}
+
+.icon-haoyou:before {
+  content: "\e625";
+}
+
+.icon-gerenzhongxin-denglu:before {
+  content: "\e602";
+}
+
+.icon-personality-settings:before {
+  content: "\e650";
+}
+
+.icon-xiaoxizhongxin:before {
+  content: "\e612";
+}
+
+.icon-gedan:before {
+  content: "\e636";
+}
+
+.icon-diantai:before {
+  content: "\e600";
+}
+
+.icon-icon_xinyong_xianxing_jijin-133:before {
+  content: "\e649";
+}
+
+.icon-dianshizhiboguankanshipinbofangmeiti:before {
+  content: "\e60a";
+}
+
+.icon-paihangbang:before {
+  content: "\e7fe";
+}

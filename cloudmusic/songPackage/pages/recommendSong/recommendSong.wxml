@@ -1,0 +1,31 @@
+<view class="recommendSongContainer">
+    <!--头部 -->
+    <view class="header">
+        <image src="/static/images/recommend/header.png" ></image>
+        <view class="date">
+            <text class="time">{{date.time}}</text>
+            <text class="day">{{date.daytime}}</text>
+        </view>
+    </view>
+
+    <!-- 列表区域-->
+    <view class="ListContainer">
+        <!--标签栏-->
+        <view class="listHeader">
+            <text class="iconfont icon-bofang1"> 播放全部</text>
+            <text class="iconfont icon-youxuliebiao"></text>
+        </view>
+
+        <!--内容区-->
+        <scroll-view scroll-y class="listScroll" >
+            <view wx:for="{{recommendSongs}}"  wx:key="id" class="scrollItem" bindtap="toSongDetail" data-index="{{index}}" data-songid="{{item.id}}">
+                <image src="{{item.al.picUrl}}"></image>
+                <view class="musicInfo">
+                    <view class="musicName">{{item.name}}</view>
+                    <view class="author">{{item.ar[0].name}}</view>
+                </view>
+                <text class="iconfont icon-more2"></text>
+            </view>
+        </scroll-view>
+    </view>
+</view>
